@@ -1,0 +1,6 @@
+---
+- name: Create terraform backend configuration
+  terraform:
+    project_path: "{{ project_path }}"
+    state: "{{ state }}"
+    force_init: true
